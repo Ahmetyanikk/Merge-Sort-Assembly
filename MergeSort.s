@@ -7,7 +7,7 @@ final dcd 0
 	AREA    project, CODE, READWRITE
 	ENTRY
 				
-				B main					;0x00000000,0x00001000
+				B main					
 	
 SORT                   ; R3 = array, R1 = n
 				PUSH   {LR}           ; save preserved registers
